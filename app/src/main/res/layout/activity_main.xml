@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/teal_200"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="414dp"
+        android:layout_height="473dp"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="120dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bu1"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_marginRight="4pt"
+                android:layout_marginBottom="4pt"
+                android:background="@color/teal_200"
+                android:onClick="buSelect" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bu2"
+
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_marginRight="4pt"
+                android:layout_marginBottom="4pt"
+                android:background="@color/teal_200"
+                android:onClick="buSelect" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bu3"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_marginBottom="4pt"
+                android:background="@color/teal_200"
+                android:onClick="buSelect" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bu4"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_marginRight="4pt"
+                android:layout_marginBottom="4pt"
+                android:background="@color/teal_200"
+                android:onClick="buSelect" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bu5"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_marginRight="4pt"
+                android:layout_marginBottom="4pt"
+                android:background="@color/teal_200"
+                android:onClick="buSelect" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bu6"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_marginBottom="4pt"
+                android:background="@color/teal_200"
+                android:onClick="buSelect" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bu7"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_marginRight="4pt"
+                android:background="@color/teal_200"
+                android:onClick="buSelect" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bu8"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_marginRight="4pt"
+                android:background="@color/teal_200"
+                android:onClick="buSelect" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bu9"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:background="@color/teal_200"
+                android:onClick="buSelect" />
+        </TableRow>
+
+    </TableLayout>
+
+</TableLayout>
